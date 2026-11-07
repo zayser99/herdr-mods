@@ -1,8 +1,8 @@
-# Run
+# VS Code Run
 
 A sidebar panel that turns the `.vscode/launch.json` and `.vscode/tasks.json` of the folder you're working in into play buttons. Each compound, configuration or task opens in its own Herdr tab and runs as a plain command (no debugger); while that tab is open, its row shows restart and stop buttons. The UI text is in Spanish.
 
-![Run](preview.png)
+![VS Code Run](preview.png)
 
 ## What you see
 
@@ -40,7 +40,7 @@ What runs:
 
 ## Built from
 
-- One mod, `mods/launch/`: `main.js`, `mod.json` (`{ "place": "none", "title": "Run" }`), and four 24×24 stroke icons tinted with the text color: `play.svg`, `rotate.svg`, `square.svg`, `edit.svg` (Lucide).
+- One mod, `mods/launch/`: `main.js`, `mod.json` (`{ "place": "none", "title": "VS Code Run" }`), and four 24×24 stroke icons tinted with the text color: `play.svg`, `rotate.svg`, `square.svg`, `edit.svg` (Lucide).
 - Placed as a block in the layout, e.g. under `agents` in a clone of `main`'s `sidebar-lists` column: `{ "id": "launch", "type": "block", "size": { "weight": 1 }, "min": 90, "content": { "mod": "launch" } }`. No props.
 - `herdr`: `spaces`, `panes`, `terminals`, `focused`, `theme`, `window`, `home`, `readTextFile`, `run`, `exec`, `hc`, `notify`, `nextCommand`; commands `tab.new`, `terminal.open`, `tab.close`, `space.select`, `tab.select`.
 - Programs: `sh` / `pwsh`, whatever the configurations run, `code`, `open` / `xdg-open` / `rundll32`, `hc read`.

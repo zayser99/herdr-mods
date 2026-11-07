@@ -4,11 +4,11 @@ Mods para [Herdr](https://herdr.dev), la app de escritorio para terminales y age
 
 ## Mods
 
-### [Run](launch/) (`launch`)
+### [VS Code Run](launch/) (`launch`)
 
 Muestra en el sidebar las configuraciones de `.vscode/launch.json` y las tareas de `.vscode/tasks.json` de la carpeta en la que estás, cada una con su botón ▶. Cada una se abre en su propia pestaña de Herdr, y mientras está abierta puedes reiniciarla (↻) o detenerla (■). Un compuesto abre una sola pestaña dividida, con una terminal por cada configuración.
 
-<img src="launch/preview.png" alt="Run" width="268">
+<img src="launch/preview.png" alt="VS Code Run" width="268">
 
 - **Configuraciones:** `node`, `node-terminal`, `python`, `coreclr`/`dotnet`.
 - **Tareas:** `shell`, `process` y `npm`, con `dependsOn`, `preLaunchTask`, `cwd`, `env` y variables como `${workspaceFolder}`.
