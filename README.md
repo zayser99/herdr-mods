@@ -21,7 +21,7 @@ Muestra en el sidebar las configuraciones de `.vscode/launch.json` y las tareas 
 
 ```sh
 git clone https://github.com/zayser99/herdr-mods.git
-cp -R herdr-mods/launch ~/.config/herdr-app/mods/launch
+cp -R herdr-mods/launch/mods/launch ~/.config/herdr-app/mods/launch
 herdr-app check ~/.config/herdr-app/mods/launch
 ```
 
